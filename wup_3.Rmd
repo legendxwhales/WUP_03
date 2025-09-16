@@ -52,7 +52,13 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 
-After observing the P-value which was about 0.000116, I noticed that it's incredibly small. This tells me that there is a significant differnece between the values.
+After observing the P-value which was about 0.000116, I noticed that it's incredibly small. This tells me that there is a significant difference between the values.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+We're looking at the 95% confidence interval. I analyzed the intervals of the Front-Back, Middle-Back, and Middle-Front seats, with 0 indicating the difference between the lines. After careful observation, I noticed that the Front-Back and Middle-Back seats are significantly different. This is because 0 doesn't go through their confidence intervals. Nonetheless, 0 does go through the confidence interval for the Middle-Front seats. This means that there is not a significant differnece between them. 
 
 ## Conclusions
 
