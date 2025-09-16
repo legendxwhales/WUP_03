@@ -58,8 +58,8 @@ After observing the P-value which was about 0.000116, I noticed that it's incred
 plot(TukeyHSD(model1))
 ```
 
-We're looking at the 95% confidence interval. I analyzed the intervals of the Front-Back, Middle-Back, and Middle-Front seats, with 0 indicating the difference between the lines. After careful observation, I noticed that the Front-Back and Middle-Back seats are significantly different. This is because 0 doesn't go through their confidence intervals. Nonetheless, 0 does go through the confidence interval for the Middle-Front seats. This means that there is not a significant differnece between them. 
+We're looking at the 95% confidence interval. I analyzed the intervals of the Front-Back, Middle-Back, and Middle-Front seats, with 0 indicating the difference between the lines. After careful observation, I noticed that the Front-Back and Middle-Back seats are significantly different. This is because 0 doesn't go through their confidence intervals. Nonetheless, 0 does go through the confidence interval for the Middle-Front seats. This means that there is not a significant difference between them. 
 
 ## Conclusions
 
-
+In today's lesson I learned to look at numerical categorical data when there are more than two categories. When this occurs, we have to use our helper file, which in this case is "One Way Anova." One Way Anova allowed me to code into the program, which would then allow me to examine three types of graphs. These were favstats, model1, and plotturkey respectively. I then implemented my answers in numerical summary s and inferential results. In addition, one thing I found interesting was that these graphs all pertained to rows and seats. It made the assignment more enjoyable and it also made it easier to visualize data as it applies to our daily lives.
