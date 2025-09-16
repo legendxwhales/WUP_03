@@ -47,6 +47,13 @@ I noticed that the number of people sitting in the middle are the highest, (89),
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+After observing the P-value which was about 0.000116, I noticed that it's incredibly small. This tells me that there is a significant differnece between the values.
+
 ## Conclusions
 
 
